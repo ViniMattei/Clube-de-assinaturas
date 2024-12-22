@@ -45,7 +45,7 @@ Clube de assinaturas um projeto de animação para compras
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através (https://www.figma.com/design/Us2yND9UbNc5h5wW3JqV3z/LP-de-patins-animada-(Community)?m=auto&is-community-duplicate=1&fuid=1445020561682441813) É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através (https://www.figma.com/design/gsbxbHLqEJfSBb0Gubpu2z/LP-de-Clube-de-Assinatura-(Community)?m=auto&is-community-duplicate=1&fuid=1445020561682441813) para acessá-lo.
 
 ## :memo: Licença
 
