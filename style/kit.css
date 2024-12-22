@@ -1,0 +1,173 @@
+.kit-container {
+  margin-inline: auto;
+  max-width: 90rem;
+
+  & .kit-content {
+    position: relative;
+    margin-top: 14.69rem;
+
+    text-align: center;
+    gap: 1rem;
+  }
+
+  & .blur-4 {
+    position: absolute;
+    z-index: -1;
+    left: 14rem;
+    top: 10rem;
+    width: 58.125rem;
+    height: 58.125rem;
+    border-radius: 58.125rem;
+
+    opacity: 0.5;
+    background: var(--pink-pink-low, #3f0f41);
+    filter: blur(300px);
+  }
+
+  & .kit-title {
+    display: inline-flex;
+    align-items: center;
+
+    font-size: 2rem;
+    color: var(--text-title);
+    font-weight: 700;
+    font-family: var(--ff-base);
+  }
+
+  & .kit-description {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: var(--text-body);
+    font-family: var(--ff-base);
+
+    margin-bottom: 5.5rem;
+  }
+
+  & .box-image {
+    fill: var(--pink-base, #9547a5);
+    filter: drop-shadow(0px 0px 28px rgba(143, 59, 158, 0.5));
+  }
+
+  & .element-book {
+    max-width: 90rem;
+    height: 57.5rem;
+    margin-inline: auto;
+
+    & .animation-book {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    & .book {
+      position: absolute;
+      width: 29.18rem;
+      height: 38.56rem;
+    }
+
+    & .first-info {
+      position: absolute;
+      width: 10.75rem;
+      height: 33.5rem;
+      left: 33.5rem;
+      top: 3rem;
+      z-index: -1;
+
+      transition: 400ms ease-in-out;
+    }
+
+    & .pin {
+      position: absolute;
+      width: 13.87rem;
+      height: 15.87rem;
+      bottom: 11rem;
+      left: 32rem;
+      z-index: -1;
+
+      transition: 400ms ease-in-out;
+    }
+
+    & .second-info {
+      position: absolute;
+      width: 6.55325rem;
+      height: 7.9375rem;
+      bottom: 24.5rem;
+      left: 33rem;
+      z-index: -1;
+
+      transition: 400ms ease-in-out;
+    }
+
+    & .bookmark-yellow {
+      position: absolute;
+      width: 10.75rem;
+      height: 33.5rem;
+      right: 30rem;
+      top: 10rem;
+
+      transition: 400ms ease-in-out;
+    }
+
+    & .bookmark-purple {
+      position: absolute;
+      width: 10.75rem;
+      height: 33.5rem;
+      right: 30rem;
+      top: 10rem;
+      z-index: -1;
+
+      transition: 400ms ease-in-out;
+    }
+
+    & .third-info {
+      position: absolute;
+      width: 9.09rem;
+      height: 9.46rem;
+      right: 32rem;
+      bottom: 12rem;
+      z-index: -1;
+
+      transition: 400ms ease-in-out;
+    }
+  }
+
+  & .element-book:hover {
+    & .animation-book {
+      & .first-info {
+        top: -9rem;
+        left: 31.5rem;
+        transform: translateX(-10rem);
+      }
+
+      & .pin {
+        bottom: 4rem;
+        transform: translateX(-10rem) rotate(-8deg);
+      }
+
+      & .second-info {
+        bottom: 17rem;
+        left: 30rem;
+        transform: translateX(-10rem);
+      }
+
+      & .bookmark-yellow {
+        right: 23.3rem;
+        top: 4.5rem;
+        transform: rotate(12deg);
+      }
+
+      & .bookmark-purple {
+        right: 16.4rem;
+        top: 11rem;
+        transform: rotate(22deg);
+      }
+
+      & .third-info {
+        right: 21rem;
+        bottom: 6rem;
+      }
+    }
+  }
+}

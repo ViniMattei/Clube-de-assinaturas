@@ -1,0 +1,114 @@
+& .about {
+  position: relative;
+  text-align: center;
+
+  max-width: 90rem;
+  height: 25rem;
+  margin-inline: auto;
+  padding-top: 10rem;
+
+  & img {
+    width: 2.5rem;
+    opacity: 0;
+  }
+
+  & span {
+    font-weight: var(--fs-md);
+    font-size: 2rem;
+    line-height: 1.4;
+    color: #e2e7e9;
+    opacity: 50%;
+  }
+
+  & img[src*="book1"] {
+    position: absolute;
+    top: 5rem;
+    left: 42rem;
+    transform: rotate(10deg);
+
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  & img[src*="book2"] {
+    position: absolute;
+
+    right: 75rem;
+    top: 16rem;
+    width: 5rem;
+    height: 5rem;
+
+    transform: rotate(99.47deg);
+  }
+
+  & img[src*="book3"] {
+    position: absolute;
+    top: 16rem;
+    right: 8rem;
+    width: 4.5rem;
+    height: 4.5rem;
+
+    transform: rotate(-14.483deg);
+  }
+}
+
+& .about:hover {
+  & span:nth-child(2) {
+    opacity: 1;
+    transition: opacity ease;
+  }
+
+  & span:nth-child(3) {
+    opacity: 1;
+    transition-property: opacity;
+    transition-delay: 0.5s;
+  }
+
+  & span:nth-child(4) {
+    opacity: 1;
+    transition-property: opacity;
+    transition-delay: 1s;
+  }
+
+  & strong {
+    font-weight: 700;
+    color: var(--blue-light);
+    opacity: 1;
+    transition: linear opacity ease;
+  }
+
+  & img[src*="book1"] {
+    opacity: 1;
+    transition: linear opacity ease;
+
+    &:hover {
+      transform: rotate(20.758deg);
+      scale: 1.1;
+      transition: transform 0.5s ease;
+    }
+  }
+
+  & img[src*="book2"] {
+    opacity: 1;
+    transition-property: opacity;
+    transition-delay: 0.5s;
+
+    &:hover {
+      transform: rotate(110.47deg);
+      scale: 1.1;
+      transition: transform 1s ease;
+    }
+  }
+
+  & img[src*="book3"] {
+    opacity: 1;
+    transition-property: opacity;
+    transition-delay: 1s;
+
+    &:hover {
+      transform: rotate(-3.483deg);
+      scale: 1.1;
+      transition: transform 0.5s ease;
+    }
+  }
+}
